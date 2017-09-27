@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Moya (9.0.0):
+    - Moya/Core (= 9.0.0)
+  - Moya/Core (9.0.0):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Nimble (7.0.1)
+  - Result (3.2.3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Moya
+  - Nimble
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Moya: cf5e6ee93af526532f92614004b8ad2ea60fd845
+  Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 0f1c7f32ee95c37ab49fbd164f59a964f967a0df
+
+COCOAPODS: 1.2.1
