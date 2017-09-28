@@ -6,8 +6,12 @@ import Moya
 import Alamofire
 import CoreLocation
 
+public enum Mode {
+    case walking, driving, bicycling, transit
+}
+
 public enum GoogleMapsDirections {
-    case directions(key: String, origin: CLLocationCoordinate2D, waypoints: [CLLocationCoordinate2D], destination: CLLocationCoordinate2D)
+    case directions(key: String, origin: CLLocationCoordinate2D, waypoints: [CLLocationCoordinate2D], destination: CLLocationCoordinate2D, mode: Mode)
 }
 
 extension GoogleMapsDirections: TargetType {
@@ -28,11 +32,12 @@ extension GoogleMapsDirections: TargetType {
 
     public var task: Task {
         switch self {
-        case let .directions(key, origin, waypoints, destination):
+        case let .directions(key, origin, waypoints, destination, mode):
             var params = [String : Any]()
             params["key"] = key
             params["origin"] = origin.latLngString
             params["destination"] = destination.latLngString
+            params["mode"] = String(describing: mode)
             if !waypoints.isEmpty {
                 params["waypoints"] = waypoints.map { $0.latLngString } .joined(separator: "|")
             }
