@@ -30,7 +30,7 @@ extension GoogleMapsDirections: TargetType {
         return .get
     }
 
-    public var task: Task {
+    public var parameters: [String: Any]? {
         switch self {
         case let .directions(key, origin, waypoints, destination, mode):
             var params = [String : Any]()
@@ -41,8 +41,14 @@ extension GoogleMapsDirections: TargetType {
             if !waypoints.isEmpty {
                 params["waypoints"] = waypoints.map { $0.latLngString } .joined(separator: "|")
             }
-            return .requestParameters(parameters: params, encoding: URLEncoding.default)
+            return params
         }
+    }
+
+    public var task: Task { return .request }
+
+    public var parameterEncoding: ParameterEncoding {
+        return URLEncoding.default
     }
 
     public var headers: [String : String]? {
