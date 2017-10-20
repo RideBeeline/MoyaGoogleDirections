@@ -3,7 +3,7 @@ use_frameworks!
 
 target 'MoyaGoogleDirections' do
 
-  pod 'Moya', '~> 8'
+  pod 'Moya'
   pod 'SwiftyJSON'
 
   target 'MoyaGoogleDirectionsTests' do
