@@ -1,14 +1,12 @@
-platform :ios, '9.0'
+platform :ios, '8.0'
 use_frameworks!
 
 target 'MoyaGoogleDirections' do
 
-  pod 'Moya'
-  pod 'SwiftyJSON'
+  pod 'Moya', '~> 10.0'
 
   target 'MoyaGoogleDirectionsTests' do
     inherit! :search_paths
-    pod 'Nimble'
   end
 
 end
