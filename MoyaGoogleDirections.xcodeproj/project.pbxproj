@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A415AF5BF1736E7EED0D405 /* Pods_MoyaGoogleDirections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8B21BA5FC266D8263E23CC /* Pods_MoyaGoogleDirections.framework */; };
+		49C0B5921FA09FCD00BAF712 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C0B5911FA09FCD00BAF712 /* Response.swift */; };
 		49C8F6691F7BAA1D0088B646 /* MoyaGoogleDirections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C8F65F1F7BAA1D0088B646 /* MoyaGoogleDirections.framework */; };
 		49C8F66E1F7BAA1D0088B646 /* MoyaGoogleDirectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C8F66D1F7BAA1D0088B646 /* MoyaGoogleDirectionsTests.swift */; };
 		49C8F6701F7BAA1D0088B646 /* MoyaGoogleDirections.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C8F6621F7BAA1D0088B646 /* MoyaGoogleDirections.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		30E0B2DD96C070E1556487EE /* Pods-MoyaGoogleDirections.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGoogleDirections.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaGoogleDirections/Pods-MoyaGoogleDirections.release.xcconfig"; sourceTree = "<group>"; };
 		3733E0FD8C04BD3F6919D589 /* Pods-MoyaGoogleDirections.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGoogleDirections.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaGoogleDirections/Pods-MoyaGoogleDirections.debug.xcconfig"; sourceTree = "<group>"; };
+		49C0B5911FA09FCD00BAF712 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		49C8F65F1F7BAA1D0088B646 /* MoyaGoogleDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaGoogleDirections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C8F6621F7BAA1D0088B646 /* MoyaGoogleDirections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoyaGoogleDirections.h; sourceTree = "<group>"; };
 		49C8F6631F7BAA1D0088B646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				49C8F67B1F7BABCF0088B646 /* GoogleMapsDirections.swift */,
+				49C0B5911FA09FCD00BAF712 /* Response.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C0B5921FA09FCD00BAF712 /* Response.swift in Sources */,
 				49C8F67C1F7BABCF0088B646 /* GoogleMapsDirections.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
