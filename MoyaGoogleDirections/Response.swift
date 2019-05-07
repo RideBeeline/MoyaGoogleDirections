@@ -24,11 +24,13 @@ public struct Leg: Decodable {
 public struct Step: Decodable {
     public let startLocation: Location
     public let endLocation: Location
+    public let maneuver: Maneuver?
     public let polyline: Polyline
 
     enum CodingKeys: String, CodingKey {
         case startLocation = "start_location"
         case endLocation = "end_location"
+        case maneuver
         case polyline
     }
 }
@@ -49,4 +51,25 @@ public struct Location: Decodable {
     public var coordinate: CLLocationCoordinate2D {
         return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }
+}
+
+public enum Maneuver: String, Decodable {
+    case turnSlightLeft = "turn-slight-left"
+    case turnSharpLeft = "turn-sharp-left"
+    case uTurnLeft = "uturn-left"
+    case turnLeft = "turn-left"
+    case turnSlightRight = "turn-slight-right"
+    case turnSharpRight = "turn-sharp-right"
+    case uTurnRight = "uturn-right"
+    case turnRight = "turn-right"
+    case straight = "straight"
+    case rampLeft = "ramp-left"
+    case rampRight = "ramp-right"
+    case merge = "merge"
+    case forkLeft = "fork-left"
+    case forkRight = "fork-right"
+    case ferry = "ferry"
+    case ferryTrain = "ferry-train"
+    case roundaboutLeft = "roundabout-left"
+    case roundaboutRight = "roundabout-right"
 }
