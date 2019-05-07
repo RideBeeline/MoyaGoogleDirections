@@ -163,7 +163,6 @@
 				49C8F65B1F7BAA1D0088B646 /* Frameworks */,
 				49C8F65C1F7BAA1D0088B646 /* Headers */,
 				49C8F65D1F7BAA1D0088B646 /* Resources */,
-				39050D049957DF031F54E1C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,8 +181,6 @@
 				49C8F6641F7BAA1D0088B646 /* Sources */,
 				49C8F6651F7BAA1D0088B646 /* Frameworks */,
 				49C8F6661F7BAA1D0088B646 /* Resources */,
-				519AD8632D32F897EE4D19B5 /* [CP] Embed Pods Frameworks */,
-				916B6379D1AF7619D28B7B60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,43 +253,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		39050D049957DF031F54E1C7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaGoogleDirections/Pods-MoyaGoogleDirections-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		519AD8632D32F897EE4D19B5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MoyaGoogleDirectionsTests/Pods-MoyaGoogleDirectionsTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaGoogleDirectionsTests/Pods-MoyaGoogleDirectionsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8A81E6B7C315667E8C655E97 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,21 +269,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		916B6379D1AF7619D28B7B60 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaGoogleDirectionsTests/Pods-MoyaGoogleDirectionsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E292E529502E4566000B0289 /* [CP] Check Pods Manifest.lock */ = {
