@@ -24,7 +24,7 @@ public struct Leg: Decodable {
 public struct Step: Decodable {
     public let startLocation: Location
     public let endLocation: Location
-    public let maneuver: Maneuver?
+    public let maneuver: String?
     public let polyline: Polyline
 
     enum CodingKeys: String, CodingKey {
@@ -53,23 +53,23 @@ public struct Location: Decodable {
     }
 }
 
-public enum Maneuver: String, Decodable {
-    case turnSlightLeft = "turn-slight-left"
-    case turnSharpLeft = "turn-sharp-left"
-    case uTurnLeft = "uturn-left"
-    case turnLeft = "turn-left"
-    case turnSlightRight = "turn-slight-right"
-    case turnSharpRight = "turn-sharp-right"
-    case uTurnRight = "uturn-right"
-    case turnRight = "turn-right"
-    case straight = "straight"
-    case rampLeft = "ramp-left"
-    case rampRight = "ramp-right"
-    case merge = "merge"
-    case forkLeft = "fork-left"
-    case forkRight = "fork-right"
-    case ferry = "ferry"
-    case ferryTrain = "ferry-train"
-    case roundaboutLeft = "roundabout-left"
-    case roundaboutRight = "roundabout-right"
+public class Maneuver {
+    public static let turnSlightLeft = "turn-slight-left"
+    public static let turnSharpLeft = "turn-sharp-left"
+    public static let uTurnLeft = "uturn-left"
+    public static let turnLeft = "turn-left"
+    public static let turnSlightRight = "turn-slight-right"
+    public static let turnSharpRight = "turn-sharp-right"
+    public static let uTurnRight = "uturn-right"
+    public static let turnRight = "turn-right"
+    public static let straight = "straight"
+    public static let rampLeft = "ramp-left"
+    public static let rampRight = "ramp-right"
+    public static let merge = "merge"
+    public static let forkLeft = "fork-left"
+    public static let forkRight = "fork-right"
+    public static let ferry = "ferry"
+    public static let ferryTrain = "ferry-train"
+    public static let roundaboutLeft = "roundabout-left"
+    public static let roundaboutRight = "roundabout-right"
 }
