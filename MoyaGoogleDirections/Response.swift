@@ -26,12 +26,14 @@ public struct Step: Decodable {
     public let endLocation: Location
     public let maneuver: String?
     public let polyline: Polyline
+    public let htmlInstructions: String?
 
     enum CodingKeys: String, CodingKey {
         case startLocation = "start_location"
         case endLocation = "end_location"
         case maneuver
         case polyline
+        case htmlInstructions = "html_instructions"
     }
 }
 
