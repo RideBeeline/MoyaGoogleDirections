@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name            = "MoyaGoogleDirections"
-  s.version         = "1.1.0"
+  s.version         = "1.2.0"
   s.license         = "MIT"
   s.summary         = "Google Maps Directions API client using Moya"
   s.homepage        = "https://github.com/ridebeeline/MoyaGoogleDirections"
