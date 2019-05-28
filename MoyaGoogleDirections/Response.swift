@@ -74,4 +74,6 @@ public class Maneuver {
     public static let ferryTrain = "ferry-train"
     public static let roundaboutLeft = "roundabout-left"
     public static let roundaboutRight = "roundabout-right"
+    public static let keepLeft = "keep-left"
+    public static let keepRight = "keep-right"
 }
