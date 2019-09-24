@@ -3,10 +3,10 @@ use_frameworks!
 
 target 'MoyaGoogleDirections' do
 
-  pod 'Moya', '~> 10.0'
+  pod 'Moya', '13.0.1'
 
   target 'MoyaGoogleDirectionsTests' do
-    inherit! :search_paths
+
   end
 
 end

@@ -13,7 +13,7 @@
 		49C8F66E1F7BAA1D0088B646 /* MoyaGoogleDirectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C8F66D1F7BAA1D0088B646 /* MoyaGoogleDirectionsTests.swift */; };
 		49C8F6701F7BAA1D0088B646 /* MoyaGoogleDirections.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C8F6621F7BAA1D0088B646 /* MoyaGoogleDirections.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49C8F67C1F7BABCF0088B646 /* GoogleMapsDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C8F67B1F7BABCF0088B646 /* GoogleMapsDirections.swift */; };
-		DCDC71C16CF2FB70D67FF708 /* Pods_MoyaGoogleDirectionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546D138DECFC54C8201B0C97 /* Pods_MoyaGoogleDirectionsTests.framework */; };
+		4CEB922778F67C6C6877F6F6 /* Pods_MoyaGoogleDirections_MoyaGoogleDirectionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE80F8FA268EF98246C86C5 /* Pods_MoyaGoogleDirections_MoyaGoogleDirectionsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D7E733EEB39F5B46CD04E68 /* Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests/Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		30E0B2DD96C070E1556487EE /* Pods-MoyaGoogleDirections.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGoogleDirections.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaGoogleDirections/Pods-MoyaGoogleDirections.release.xcconfig"; sourceTree = "<group>"; };
 		3733E0FD8C04BD3F6919D589 /* Pods-MoyaGoogleDirections.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGoogleDirections.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaGoogleDirections/Pods-MoyaGoogleDirections.debug.xcconfig"; sourceTree = "<group>"; };
+		41F8B161ABE4A7C5A27B4480 /* Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests/Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests.release.xcconfig"; sourceTree = "<group>"; };
 		49C0B5911FA09FCD00BAF712 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		49C8F65F1F7BAA1D0088B646 /* MoyaGoogleDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaGoogleDirections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C8F6621F7BAA1D0088B646 /* MoyaGoogleDirections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoyaGoogleDirections.h; sourceTree = "<group>"; };
@@ -37,7 +39,7 @@
 		49C8F66D1F7BAA1D0088B646 /* MoyaGoogleDirectionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaGoogleDirectionsTests.swift; sourceTree = "<group>"; };
 		49C8F66F1F7BAA1D0088B646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49C8F67B1F7BABCF0088B646 /* GoogleMapsDirections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapsDirections.swift; sourceTree = "<group>"; };
-		546D138DECFC54C8201B0C97 /* Pods_MoyaGoogleDirectionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaGoogleDirectionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE80F8FA268EF98246C86C5 /* Pods_MoyaGoogleDirections_MoyaGoogleDirectionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaGoogleDirections_MoyaGoogleDirectionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FAA7B0F4DA7C531018E319 /* Pods-MoyaGoogleDirectionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGoogleDirectionsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaGoogleDirectionsTests/Pods-MoyaGoogleDirectionsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3589130D015AD811DD18E7D /* Pods-MoyaGoogleDirectionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGoogleDirectionsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaGoogleDirectionsTests/Pods-MoyaGoogleDirectionsTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE8B21BA5FC266D8263E23CC /* Pods_MoyaGoogleDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaGoogleDirections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,7 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C8F6691F7BAA1D0088B646 /* MoyaGoogleDirections.framework in Frameworks */,
-				DCDC71C16CF2FB70D67FF708 /* Pods_MoyaGoogleDirectionsTests.framework in Frameworks */,
+				4CEB922778F67C6C6877F6F6 /* Pods_MoyaGoogleDirections_MoyaGoogleDirectionsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				CE8B21BA5FC266D8263E23CC /* Pods_MoyaGoogleDirections.framework */,
-				546D138DECFC54C8201B0C97 /* Pods_MoyaGoogleDirectionsTests.framework */,
+				4BE80F8FA268EF98246C86C5 /* Pods_MoyaGoogleDirections_MoyaGoogleDirectionsTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,6 +138,8 @@
 				30E0B2DD96C070E1556487EE /* Pods-MoyaGoogleDirections.release.xcconfig */,
 				56FAA7B0F4DA7C531018E319 /* Pods-MoyaGoogleDirectionsTests.debug.xcconfig */,
 				C3589130D015AD811DD18E7D /* Pods-MoyaGoogleDirectionsTests.release.xcconfig */,
+				2D7E733EEB39F5B46CD04E68 /* Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests.debug.xcconfig */,
+				41F8B161ABE4A7C5A27B4480 /* Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -181,6 +185,7 @@
 				49C8F6641F7BAA1D0088B646 /* Sources */,
 				49C8F6651F7BAA1D0088B646 /* Frameworks */,
 				49C8F6661F7BAA1D0088B646 /* Resources */,
+				972062201C3843F6BEE7C540 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,11 +269,33 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MoyaGoogleDirectionsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		972062201C3843F6BEE7C540 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests/Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests/Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E292E529502E4566000B0289 /* [CP] Check Pods Manifest.lock */ = {
@@ -484,7 +511,7 @@
 		};
 		49C8F6771F7BAA1D0088B646 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56FAA7B0F4DA7C531018E319 /* Pods-MoyaGoogleDirectionsTests.debug.xcconfig */;
+			baseConfigurationReference = 2D7E733EEB39F5B46CD04E68 /* Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = HYV9U93759;
@@ -498,7 +525,7 @@
 		};
 		49C8F6781F7BAA1D0088B646 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3589130D015AD811DD18E7D /* Pods-MoyaGoogleDirectionsTests.release.xcconfig */;
+			baseConfigurationReference = 41F8B161ABE4A7C5A27B4480 /* Pods-MoyaGoogleDirections-MoyaGoogleDirectionsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = HYV9U93759;
